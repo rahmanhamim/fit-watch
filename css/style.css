@@ -1,0 +1,34 @@
+.section-height {
+ min-height: 100vh;
+}
+.black,
+.red,
+.peach,
+.purple {
+ border: none;
+ border-radius: 3px;
+ padding: 20px 35px;
+}
+.black {
+ background-color: black;
+}
+.red {
+ background-color: #ca3d22;
+}
+.peach {
+ background-color: #e9c7be;
+}
+.purple {
+ background-color: #565681;
+}
+.image-container {
+ position: relative;
+}
+#time {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-55%) translateY(-50%);
+ color: white;
+ font-size: 2.2em;
+}
